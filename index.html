@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A aventura</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <head><img src="https://st2.depositphotos.com/1004005/6258/i/450/depositphotos_62588775-stock-photo-3d-rendered-fantasy-alien-planet.jpg" alt="0"></head>
+            <p>Você recebe um mapa antigo que leva a uma ilha misteriosa. Com o coração acelerado, você decide embarcar em um barco para descobrir o que há lá. </p>
+            <button class="btn-proximo" data-proximo="1">Embarcar no barco e seguir para a ilha</button>
+            <button class="btn-proximo" data-proximo="2">Ignorar o mapa e ficar em casa</button>
+    
+        </div>
+        <div class="passo" id="passo-1">
+           <head><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj03VYv0fSZVXdnPRkki6k0FEZybaoXE4Ns9zTU7Y9iSHB5dEyW78svyPk8sHG02QEGzw&usqp=CAU" alt=""></head>
+            <p>Ao chegar à ilha, você vê duas trilhas: uma leva à praia ensolarada e a outra para uma floresta densa.</p>
+            <button class="btn-proximo" data-proximo="4">Ir para a praia.</button>
+            <button class="btn-proximo" data-proximo="5">Seguir pela trilha da floresta.</button>
+        </div>
+    
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>ignorou e perdeu uma aventura</p>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <head><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThnUiMqKfzWxX8NI7rxHtv1Z9cxziRSDv_b_waoExIOISJ-9ZRfeJ8zfw2i68w7hAfQuc&usqp=CAU" alt=""></head>
+            <p>Achou um tesouro</p>
+            <h2>você venceu!</h2>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>Se perdeu na floresta</p>
+            <h2>você perdeu!</h2>
+        </div>
+    
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
